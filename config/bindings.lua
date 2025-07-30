@@ -54,13 +54,14 @@ local keys = {
    { key = 'Backspace',  mods = mod.SUPER,     action = act.SendString '\u{15}' },
 
    -- copy/paste --
-   { key = 'c',          mods = 'CTRL|SHIFT',  action = act.CopyTo('Clipboard') },
-   { key = 'v',          mods = 'CTRL|SHIFT',  action = act.PasteFrom('Clipboard') },
+   -- TODO: I might want to split this based on platform, I like cmd+c and cmd+v on mac, but that will mean
+	-- alt+c and alt+v on windows and linux
+   { key = 'c',          mods = mod.SUPER,  action = act.CopyTo('Clipboard') },
+   { key = 'v',          mods = mod.SUPER,  action = act.PasteFrom('Clipboard') },
 
    -- tabs --
    -- tabs: spawn+close
    { key = 't',          mods = mod.SUPER,     action = act.SpawnTab('DefaultDomain') },
-   { key = 't',          mods = mod.SUPER_REV, action = act.SpawnTab({ DomainName = 'WSL:Ubuntu' }) },
    { key = 'w',          mods = mod.SUPER_REV, action = act.CloseCurrentTab({ confirm = false }) },
 
    -- tabs: navigation
