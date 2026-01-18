@@ -217,7 +217,7 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 - On MacOs:
   - <kbd>SUPER</kbd> ⇨ <kbd>Super</kbd>
-  - <kbd>SUPER_REV</kbd> ⇨ <kbd>Super</kbd>+<kbd>Ctrl</kbd>
+  - <kbd>SUPER_REV</kbd> ⇨ <kbd>Super</kbd>+<kbd>Shift</kbd>
 - On Windows and Linux
   - <kbd>SUPER</kbd> ⇨ <kbd>Alt</kbd>
   - <kbd>SUPER_REV</kbd> ⇨ <kbd>Alt</kbd>+<kbd>Ctrl</kbd>
@@ -350,7 +350,6 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 | <kbd>SUPER</kbd>+<kbd>/</kbd>     | Select Random Image          |
 | <kbd>SUPER</kbd>+<kbd>,</kbd>     | Cycle to next Image          |
 | <kbd>SUPER</kbd>+<kbd>.</kbd>     | Cycle to previous Image      |
-| <kbd>SUPER_REV</kbd>+<kbd>/</kbd> | Fuzzy select Image           |
 | <kbd>SUPER</kbd>+<kbd>b</kbd>     | Toggle background focus mode |
 
 &nbsp;
